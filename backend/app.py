@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, make_response
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 import pdfplumber
@@ -17,21 +17,13 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # Init Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
 
-# Flask app with simplified CORS
+# Flask app with CORS for dev and prod
 app = Flask(__name__)
-CORS(app, resources={
-    r"/api/*": {
-        "origins": [
-            "http://localhost:5173",
-            "http://127.0.0.1:5173",
-            "https://asinraja-portfolio.vercel.app"
-        ],
-        "methods": ["POST", "OPTIONS"],
-        "allow_headers": ["Content-Type"],
-        "supports_credentials": True
-    }
-})
-
+CORS(app, origins=[
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://asinraja-portfolio.vercel.app"
+])
 
 # Load website text from a file
 def load_website_text(path):
@@ -47,7 +39,6 @@ resume_text = extract_resume_text("Resume.pdf")
 website_text = load_website_text("details.txt")
 
 full_text = resume_text + "\n" + website_text
-
 
 # Chunking
 def chunk_text(text, max_len=500):
@@ -93,16 +84,9 @@ def ask_groq(context, question):
     res = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
     return res.json()["choices"][0]["message"]["content"]
 
-# API route
-@app.route("/api/chat", methods=["POST", "OPTIONS"])
+# Chat API route
+@app.route("/api/chat", methods=["POST"])
 def chat():
-    if request.method == "OPTIONS":
-        response = make_response()
-        response.headers['Access-Control-Allow-Origin'] = 'http://localhost:5173'
-        response.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS'
-        response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
-        return response
-    
     data = request.get_json()
     message = data.get("message", "")
     if not message:
