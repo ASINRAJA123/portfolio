@@ -64,7 +64,7 @@ const AboutSection = () => {
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent-100 rounded-lg"></div>
               <div className="relative w-full h-96 bg-secondary-200 rounded-lg overflow-hidden">
                 <img 
-                  src="/src/assets/profile.png" 
+                  src="./assets/profile.png" 
                   alt="Professional photo" 
                   className="w-full h-full object-cover"
                 />
