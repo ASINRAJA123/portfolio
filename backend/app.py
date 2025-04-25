@@ -21,12 +21,17 @@ genai.configure(api_key=GOOGLE_API_KEY)
 app = Flask(__name__)
 CORS(app, resources={
     r"/api/*": {
-        "origins": ["http://localhost:5173", "http://127.0.0.1:5173"],
+        "origins": [
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "https://asinraja-portfolio.vercel.app"
+        ],
         "methods": ["POST", "OPTIONS"],
         "allow_headers": ["Content-Type"],
         "supports_credentials": True
     }
 })
+
 
 # Load website text from a file
 def load_website_text(path):
@@ -108,4 +113,4 @@ def chat():
     return jsonify({"reply": answer})
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
