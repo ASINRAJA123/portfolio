@@ -81,7 +81,7 @@ const ContactSection = () => {
 
   const socialLinks = [
     { icon: <FiGithub />, url: 'https://github.com/ASINRAJA123' },
-    { icon: <FiLinkedin />, url: 'https://linkedin.com/in/asin-raja' }
+    { icon: <FiLinkedin />, url: 'www.linkedin.com/in/asin-raja-0b6110289' }
   ]
 
   return (
