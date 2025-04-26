@@ -89,8 +89,6 @@ Automated Expiry Date Validation
 Developed an Automated Expiry Date Validation System using PaddleOCR and LLaMA for real-time text extraction and date identification. Integrated with a conveyor belt system to classify products as expired or not with high accuracy. Enabled automated quality control and reporting for efficient supply chain management.
 Machine Learning
 
-NxtLink Tech
-Developed a custom portfolio website to help a company establish its online presence and grow its business. Designed a modern, responsive, and SEO-optimized platform showcasing their services, projects, and client testimonials. Integrated contact forms, analytics, and performance tracking to enhance user engagement and lead generation.
 SS - CHIT FUNDS
 Developed a Chit Fund Management Software to track customers, payments, interest, and defaulters efficiently. Implemented automated payment reminders, defaulter detection, and real-time reports to streamline financial operations.
 Inventory Management ERP - In Progress
