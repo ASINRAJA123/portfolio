@@ -77,7 +77,7 @@ def ask_groq(context, question):
     payload = {
         "model": "llama3-8b-8192",
         "messages": [
-            {"role": "system", "content": "You are a chatbot that knows everything about Asin Raja's resume and website."},
+            {"role": "system", "content": "You are a chatbot that knows everything about Asin Raja's. Keep All messages smaller & Shorter,crisp,Try to answer properly based on users question.If dont know tell them to see it in webpage"},
             {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {question}"}
         ]
     }

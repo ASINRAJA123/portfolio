@@ -6,7 +6,7 @@ const ChatInterface = ({ onClose }) => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hi there! I'm your personal assistant. Ask me anything about Asin Raja's resume, projects, or experience!",
+      text: "Hi there! I'm your ASIN RAJA's personal assistant. Ask me anything about Asin Raja's resume, projects, or experience!",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -116,8 +116,8 @@ const ChatInterface = ({ onClose }) => {
       <div className="bg-gradient-to-r from-blue-600 to-blue-500 text-white p-4 shadow-md">
         <div className="flex justify-between items-center">
           <div>
-            <h3 className="text-lg font-semibold">Asin's Resume Assistant</h3>
-            <p className="text-xs text-blue-100">Powered by Gemini & Llama3</p>
+            <h3 className="text-lg font-semibold">Asin's Assistant</h3>
+            <p className="text-xs text-blue-100">Powered by Llama3</p>
           </div>
           <button 
             onClick={onClose}
