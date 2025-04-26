@@ -84,6 +84,11 @@ def ask_groq(context, question):
     res = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
     return res.json()["choices"][0]["message"]["content"]
 
+@app.route("/ping", methods=["GET"])
+def ping():
+    return "pong", 200
+
+
 # Chat API route
 @app.route("/api/chat", methods=["POST"])
 def chat():
