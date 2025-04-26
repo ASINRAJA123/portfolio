@@ -3,3 +3,100 @@ PaddleOCR, CNN-LSTM, stock chatbots using RAG + Gemini, and full-stack finance t
 Portfolio: https://asinraja-portfolio.vercel.app/
 contact : +91 6381738184
 linkindin : www.linkedin.com/in/asin-raja-0b6110289
++91 6381738184
+asinraja42@gmail.com
+https://github.com/ASINRAJA123
+linkedin.com/in/asin-raja
+
+additional information
+Technical Skills:  PyTorch, Scikit-learn, OpenCV, Transformers (BERT), Pandas, NumPy, Matplotlib, SQL, CNNs, YOLO, PaddleOCR,  Python, Research & Analysis, Financial Modelling.
+
+Professional Skills: Leadership, Client Acquisition & Management, Critical Thinking.
+
+Languages: English, Tamil.
+
+Activities: Research Paper on Automated Oil Spill Detection Using AIS & SAR Data (Ongoing)
+education
+2023 - 2027 (ONGOING)
+B.Tech in Information Technology
+Bannari Amman Institute of Technology - 7.91 CGPA (Until 3rd sem)
+Information Technology (II Year)
+PROJECT experience
+SUMMARY
+Real vs. Deepfake Video Detection
+Developed a deep learning model using CNN and LSTM architectures to detect deepfake videos.
+Utilized transfer learning with EfficientNet for improved classification accuracy.
+Automated Expiry Date Validation System
+Implemented PaddleOCR and LLaMA & BERT models for real-time text extraction and date validation.
+Integrated with a conveyor belt system for automated quality control in supply chains.
+Achieved high accuracy in detecting and categorizing expired products.
+Oil Spill Detection using ML & Satellite Data
+Developed a deep learning model & created a dataset for Sentinel-1 satellite imagery and AIS data for detecting oil spills.
+Trained a Deep - Learning model for precise segmentation of spill areas.
+Automated reporting system for real-time alerts to environmental authorities.
+Aspiring Machine Learning and Data Science student with a strong foundation in AI-driven solutions, deep learning, NLP, and computer vision. Passionate about leveraging technology to solve real-world problems and continuously expanding knowledge through hands-on projects. and also, Had experience in research analysis for a startup with financial modeling and strategic recommendations.
+Stock Market Chatbot using RAG + Gemini (Ongoing)
+Developing an AI-powered stock market chatbot using Retrieval-Augmented Generation (RAG) with the Gemini model and LangChain.
+Implementing real-time stock market data analysis and sentiment tracking.
+Integrating a chatbot interface for user-friendly interaction with stock data and market predictions.
+Full Stack - Finance Tracker
+Built a chit fund management system for tracking customers, payments, and defaulters.
+Designed a portfolio website with modern UI/UX elements and SEO optimization.
+
+ASIN RAJA M D
+Machine Learning & Finance Enthusiast
+Educational History
+B.Tech Information Technology 
+Bannari Amman Institude of Technology
+
+2023 - 2027 Batch
+Executive summary
+Skills & Abilities
+Machine Learning 
+Full Stack Developer
+Client & Project Management
+Finance
+Market Analysis
+Research & Strategy
+Conversational English and Tamil
+Contact Information
+GitHub:
+https://github.com/ASINRAJA123
+
+LinkedIn Profile: 
+https://www.linkedin.com/in/asin-raja-0b6110289/
+
++91 6381738184
+asinraja42@gmail.com
+Market Analysis 
+Skilled in analyzing market trends and business opportunities.
+Interests & Expertise
+Client Management 
+Experience in managing clients and projects for a startup.
+Machine Learning
+Specialized in real-time ML applications.
+Finance & Financial Modeling
+Experience in financial modeling and strategic planning for an idea.
+Full Stack 
+Experience in Building a software solution for chit funds and Portfolio website for a company
+A Machine Learning and Finance enthusiast, with hands-on experience in developing real-time AI-driven solutions. Worked on major projects such as Oil Spill Detection, Automated Expiry Date Validation System, and Real vs. Deepfake Video Detection.
+
+In addition to ML, experienced in full-stack development, having built chit fund management systems and currently working on an Inventory Management solution. Passionate about finance, market research, and client/project management, with foundational knowledge in financial modeling,strategic Planning and market analysis for companies. Always eager to learn, explore, and innovate in the intersection of technology and business.
+Major Projects
+Oil Spill Detection
+Developed an AI-driven Oil Spill Detection System using Sentinel-1 satellite data and AIS anomaly detection. Created a custom dataset from satellite imagery and trained a deep learning model for precise spill identification. Integrated AIS data to detect suspicious vessel activities and automated reporting to authorities for rapid response.
+Automated Expiry Date Validation
+Developed an Automated Expiry Date Validation System using PaddleOCR and LLaMA for real-time text extraction and date identification. Integrated with a conveyor belt system to classify products as expired or not with high accuracy. Enabled automated quality control and reporting for efficient supply chain management.
+Machine Learning
+
+NxtLink Tech
+Developed a custom portfolio website to help a company establish its online presence and grow its business. Designed a modern, responsive, and SEO-optimized platform showcasing their services, projects, and client testimonials. Integrated contact forms, analytics, and performance tracking to enhance user engagement and lead generation.
+SS - CHIT FUNDS
+Developed a Chit Fund Management Software to track customers, payments, interest, and defaulters efficiently. Implemented automated payment reminders, defaulter detection, and real-time reports to streamline financial operations.
+Inventory Management ERP - In Progress
+Developed an Inventory Management System with two distinct panels: Admin and Dealer. The Admin Panel enables centralized control over inventory, orders, and reports, while the Dealer Panel provides real-time tracking of stock levels, order status, and sales history. Enhanced user experience with role-based access and automated notifications for stock updates and order processing.
+Management & Analysis
+Client/Project Management
+Managed client acquisition and project execution for a startup, overseeing end-to-end client relationship management, Leadership, project planning, and delivery. Led negotiations, streamlined workflows, and ensured timely execution of projects while maintaining high client satisfaction. Implemented efficient tracking systems and team coordination to drive business growth and scalability.
+Market Analysis
+Conducted comprehensive market analysis and financial modeling for a startup, including competitor analysis, SWOT analysis, and GTM (Go-to-Market) strategy. Developed financial forecasts, budgets, and basic financial models to assess profitability, funding needs, and growth potential. Provided strategic insights to guide decision-making and ensure the startup’s sustainable growth in a competitive market.
