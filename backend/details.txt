@@ -1,3 +1,4 @@
 Asin Raja is a Machine Learning student with experience in deepfake detection, oil spill monitoring, 
 PaddleOCR, CNN-LSTM, stock chatbots using RAG + Gemini, and full-stack finance tracking.
 Portfolio: https://asinraja-portfolio.vercel.app/
+contact : +91 6381738184
