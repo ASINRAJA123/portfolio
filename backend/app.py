@@ -74,7 +74,7 @@ def ask_groq(context, question):
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama-3.3-70b-versatile",
+        "model": "llama3-8b-8192",
         "messages": [
             {
                 "role": "system",
