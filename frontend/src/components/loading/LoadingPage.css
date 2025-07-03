@@ -1,0 +1,35 @@
+@keyframes pulse-node {
+  0%, 100% {
+    transform: scale(1);
+    fill: #312e81; /* indigo-800 */
+    stroke: #4f46e5; /* indigo-600 */
+    filter: none;
+  }
+  50% {
+    transform: scale(1.6);
+    fill: #06b6d4; /* cyan-500 */
+    stroke: #67e8f9; /* cyan-300 */
+    filter: url(#glow);
+  }
+}
+
+@keyframes pulse-edge {
+  0%, 100% {
+    stroke-width: 0.5;
+    stroke: #1e3a8a; /* blue-900 */
+    opacity: 0.3;
+  }
+  50% {
+    stroke-width: 1.5;
+    stroke: #06b6d4; /* cyan-500 */
+    opacity: 1;
+  }
+}
+
+.animate-pulse-node {
+  animation: pulse-node 1.5s ease-in-out infinite;
+}
+
+.animate-pulse-edge {
+  animation: pulse-edge 1.5s ease-in-out infinite;
+}
