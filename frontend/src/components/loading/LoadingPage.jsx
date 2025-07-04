@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './LoadingPage.css';
 
-const PortfolioLoadingPage = ({ duration = 5000, onComplete }) => {
+const PortfolioLoadingPage = ({ duration = 3000, onComplete }) => {
   const [isMounted, setIsMounted] = useState(false);
   const [activeNodes, setActiveNodes] = useState(new Set());
   const [activeEdges, setActiveEdges] = useState(new Set());
